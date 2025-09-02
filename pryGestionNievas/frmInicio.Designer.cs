@@ -255,6 +255,7 @@
             this.Controls.Add(this.mrcDatos);
             this.Name = "frmInicio";
             this.Text = "Gestión de inventario";
+            this.Load += new System.EventHandler(this.frmInicio_Load);
             this.mrcDatos.ResumeLayout(false);
             this.mrcDatos.PerformLayout();
             this.mrcBusqueda.ResumeLayout(false);
