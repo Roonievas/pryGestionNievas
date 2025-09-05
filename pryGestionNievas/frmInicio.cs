@@ -16,5 +16,16 @@ namespace pryGestionNievas
         {
             InitializeComponent();
         }
+<<<<<<< Updated upstream
+=======
+
+        private void frmInicio_Load(object sender, EventArgs e)
+        {
+            clsConexionBD_v2 clsConexionBD_V2 = new clsConexionBD_v2();
+            clsConexionBD_V2.ConectarBD();
+
+            clsConexionBD_V2.cargarCategorias(cmbCategoría);
+        }
+>>>>>>> Stashed changes
     }
 }
