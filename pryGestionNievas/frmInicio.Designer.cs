@@ -65,21 +65,18 @@
             this.mrcDatos.Controls.Add(this.lblDescripcion);
             this.mrcDatos.Controls.Add(this.lblPrecio);
             this.mrcDatos.Controls.Add(this.lblStock);
-            this.mrcDatos.Location = new System.Drawing.Point(130, 69);
-            this.mrcDatos.Margin = new System.Windows.Forms.Padding(4);
+            this.mrcDatos.Location = new System.Drawing.Point(98, 56);
             this.mrcDatos.Name = "mrcDatos";
-            this.mrcDatos.Padding = new System.Windows.Forms.Padding(4);
-            this.mrcDatos.Size = new System.Drawing.Size(720, 380);
+            this.mrcDatos.Size = new System.Drawing.Size(540, 309);
             this.mrcDatos.TabIndex = 2;
             this.mrcDatos.TabStop = false;
             // 
             // btnEliminar
             // 
             this.btnEliminar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Location = new System.Drawing.Point(461, 304);
-            this.btnEliminar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEliminar.Location = new System.Drawing.Point(346, 247);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(148, 49);
+            this.btnEliminar.Size = new System.Drawing.Size(111, 40);
             this.btnEliminar.TabIndex = 4;
             this.btnEliminar.Text = "ELIMINAR";
             this.btnEliminar.UseVisualStyleBackColor = true;
@@ -91,71 +88,64 @@
             this.mrcBusqueda.Controls.Add(this.btnBuscar);
             this.mrcBusqueda.Controls.Add(this.txtCódigo);
             this.mrcBusqueda.Controls.Add(this.lblCodigo);
-            this.mrcBusqueda.Location = new System.Drawing.Point(43, 20);
-            this.mrcBusqueda.Margin = new System.Windows.Forms.Padding(4);
+            this.mrcBusqueda.Location = new System.Drawing.Point(32, 16);
             this.mrcBusqueda.Name = "mrcBusqueda";
-            this.mrcBusqueda.Padding = new System.Windows.Forms.Padding(4);
-            this.mrcBusqueda.Size = new System.Drawing.Size(609, 97);
+            this.mrcBusqueda.Size = new System.Drawing.Size(457, 79);
             this.mrcBusqueda.TabIndex = 12;
             this.mrcBusqueda.TabStop = false;
             // 
             // cmbCategoría
             // 
             this.cmbCategoría.FormattingEnabled = true;
-            this.cmbCategoría.Location = new System.Drawing.Point(184, 14);
-            this.cmbCategoría.Margin = new System.Windows.Forms.Padding(4);
+            this.cmbCategoría.Location = new System.Drawing.Point(138, 11);
             this.cmbCategoría.Name = "cmbCategoría";
-            this.cmbCategoría.Size = new System.Drawing.Size(187, 24);
+            this.cmbCategoría.Size = new System.Drawing.Size(141, 21);
+            this.cmbCategoría.Sorted = true;
             this.cmbCategoría.TabIndex = 11;
             // 
             // lblCategoria
             // 
             this.lblCategoria.AutoSize = true;
             this.lblCategoria.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCategoria.Location = new System.Drawing.Point(23, 11);
-            this.lblCategoria.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCategoria.Location = new System.Drawing.Point(17, 9);
             this.lblCategoria.Name = "lblCategoria";
-            this.lblCategoria.Size = new System.Drawing.Size(124, 22);
+            this.lblCategoria.Size = new System.Drawing.Size(96, 20);
             this.lblCategoria.TabIndex = 10;
             this.lblCategoria.Text = "CATEGORIA";
             // 
             // btnBuscar
             // 
             this.btnBuscar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscar.Location = new System.Drawing.Point(427, 32);
-            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBuscar.Location = new System.Drawing.Point(320, 26);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(148, 49);
+            this.btnBuscar.Size = new System.Drawing.Size(111, 40);
             this.btnBuscar.TabIndex = 2;
             this.btnBuscar.Text = "BUSCAR";
             this.btnBuscar.UseVisualStyleBackColor = true;
             // 
             // txtCódigo
             // 
-            this.txtCódigo.Location = new System.Drawing.Point(184, 57);
-            this.txtCódigo.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCódigo.Location = new System.Drawing.Point(138, 46);
             this.txtCódigo.Name = "txtCódigo";
-            this.txtCódigo.Size = new System.Drawing.Size(187, 22);
+            this.txtCódigo.Size = new System.Drawing.Size(141, 20);
             this.txtCódigo.TabIndex = 8;
             // 
             // lblCodigo
             // 
             this.lblCodigo.AutoSize = true;
             this.lblCodigo.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCodigo.Location = new System.Drawing.Point(24, 57);
-            this.lblCodigo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCodigo.Location = new System.Drawing.Point(18, 46);
             this.lblCodigo.Name = "lblCodigo";
-            this.lblCodigo.Size = new System.Drawing.Size(95, 22);
+            this.lblCodigo.Size = new System.Drawing.Size(76, 20);
             this.lblCodigo.TabIndex = 0;
             this.lblCodigo.Text = "CÓDIGO";
             // 
             // btnModificar
             // 
             this.btnModificar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificar.Location = new System.Drawing.Point(305, 304);
-            this.btnModificar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnModificar.Location = new System.Drawing.Point(229, 247);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(148, 49);
+            this.btnModificar.Size = new System.Drawing.Size(111, 40);
             this.btnModificar.TabIndex = 3;
             this.btnModificar.Text = "MODIFICAR";
             this.btnModificar.UseVisualStyleBackColor = true;
@@ -163,54 +153,48 @@
             // btnAgregar
             // 
             this.btnAgregar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(149, 304);
-            this.btnAgregar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAgregar.Location = new System.Drawing.Point(112, 247);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(148, 49);
+            this.btnAgregar.Size = new System.Drawing.Size(111, 40);
             this.btnAgregar.TabIndex = 1;
             this.btnAgregar.Text = "AGREGAR";
             this.btnAgregar.UseVisualStyleBackColor = true;
             // 
             // txtStock
             // 
-            this.txtStock.Location = new System.Drawing.Point(569, 255);
-            this.txtStock.Margin = new System.Windows.Forms.Padding(4);
+            this.txtStock.Location = new System.Drawing.Point(427, 207);
             this.txtStock.Name = "txtStock";
-            this.txtStock.Size = new System.Drawing.Size(128, 22);
+            this.txtStock.Size = new System.Drawing.Size(97, 20);
             this.txtStock.TabIndex = 9;
             // 
             // txtPrecio
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(173, 255);
-            this.txtPrecio.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPrecio.Location = new System.Drawing.Point(130, 207);
             this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(279, 22);
+            this.txtPrecio.Size = new System.Drawing.Size(210, 20);
             this.txtPrecio.TabIndex = 7;
             // 
             // txtDescripción
             // 
-            this.txtDescripción.Location = new System.Drawing.Point(173, 190);
-            this.txtDescripción.Margin = new System.Windows.Forms.Padding(4);
+            this.txtDescripción.Location = new System.Drawing.Point(130, 154);
             this.txtDescripción.Name = "txtDescripción";
-            this.txtDescripción.Size = new System.Drawing.Size(524, 22);
+            this.txtDescripción.Size = new System.Drawing.Size(394, 20);
             this.txtDescripción.TabIndex = 6;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(173, 129);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNombre.Location = new System.Drawing.Point(130, 105);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(524, 22);
+            this.txtNombre.Size = new System.Drawing.Size(394, 20);
             this.txtNombre.TabIndex = 5;
             // 
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
             this.lblNombre.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre.Location = new System.Drawing.Point(12, 129);
-            this.lblNombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNombre.Location = new System.Drawing.Point(9, 105);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(91, 22);
+            this.lblNombre.Size = new System.Drawing.Size(74, 20);
             this.lblNombre.TabIndex = 4;
             this.lblNombre.Text = "NOMBRE";
             // 
@@ -218,10 +202,9 @@
             // 
             this.lblDescripcion.AutoSize = true;
             this.lblDescripcion.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDescripcion.Location = new System.Drawing.Point(12, 190);
-            this.lblDescripcion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblDescripcion.Location = new System.Drawing.Point(9, 154);
             this.lblDescripcion.Name = "lblDescripcion";
-            this.lblDescripcion.Size = new System.Drawing.Size(137, 22);
+            this.lblDescripcion.Size = new System.Drawing.Size(111, 20);
             this.lblDescripcion.TabIndex = 3;
             this.lblDescripcion.Text = "DESCRIPCIÓN";
             // 
@@ -229,10 +212,9 @@
             // 
             this.lblPrecio.AutoSize = true;
             this.lblPrecio.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrecio.Location = new System.Drawing.Point(12, 255);
-            this.lblPrecio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPrecio.Location = new System.Drawing.Point(9, 207);
             this.lblPrecio.Name = "lblPrecio";
-            this.lblPrecio.Size = new System.Drawing.Size(80, 22);
+            this.lblPrecio.Size = new System.Drawing.Size(65, 20);
             this.lblPrecio.TabIndex = 2;
             this.lblPrecio.Text = "PRECIO";
             // 
@@ -240,21 +222,22 @@
             // 
             this.lblStock.AutoSize = true;
             this.lblStock.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStock.Location = new System.Drawing.Point(461, 255);
-            this.lblStock.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblStock.Location = new System.Drawing.Point(346, 207);
             this.lblStock.Name = "lblStock";
-            this.lblStock.Size = new System.Drawing.Size(70, 22);
+            this.lblStock.Size = new System.Drawing.Size(55, 20);
             this.lblStock.TabIndex = 1;
             this.lblStock.Text = "STOCK";
             // 
             // frmInicio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1042, 572);
+            this.ClientSize = new System.Drawing.Size(782, 465);
             this.Controls.Add(this.mrcDatos);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmInicio";
             this.Text = "Gestión de inventario";
+            this.Load += new System.EventHandler(this.frmInicio_Load);
             this.mrcDatos.ResumeLayout(false);
             this.mrcDatos.PerformLayout();
             this.mrcBusqueda.ResumeLayout(false);
