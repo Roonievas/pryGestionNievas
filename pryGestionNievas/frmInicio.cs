@@ -22,7 +22,7 @@ namespace pryGestionNievas
             clsConexionBD_v2 clsConexionBD_V2 = new clsConexionBD_v2();
             clsConexionBD_V2.ConectarBD();
 
-            clsConexionBD_V2.CargarCategorias(cmbCategoría);
+            clsConexionBD_V2.CargarCategorias(cmbCategoria);
 
 
             clsConexionBD_v3 conexionSQL = new clsConexionBD_v3();
